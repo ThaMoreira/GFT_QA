@@ -1,8 +1,9 @@
 import java.util.Scanner;
-public class Desafio03 {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+public class Xadrez {
+
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
 
             int L = sc.nextInt();
             int C = sc.nextInt();
@@ -10,6 +11,7 @@ public class Desafio03 {
                 System.out.println("1"); //branco
             else
                 System.out.println("0"); //preto
-        sc.close();
-    }
+            sc.close();
+
+        }
 }

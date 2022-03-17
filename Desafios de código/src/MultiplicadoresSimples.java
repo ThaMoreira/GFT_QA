@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Desafio_1 {
+public class MultiplicadoresSimples {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class Desafio_1 {
             A = sc.nextInt();
             B = sc.nextInt();
 
-            PROD =  A*B  ; //implemente o código que representa a multiplicação.
+            PROD =  A*B  ;
 
             System.out.println("PROD = " + PROD);
 
